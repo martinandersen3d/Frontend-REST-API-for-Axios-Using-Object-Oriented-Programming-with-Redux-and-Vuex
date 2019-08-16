@@ -7,5 +7,13 @@ Design goals where:
 - No "magic string" and try to remember how to write a route name, later in the project.
 - Reuse methods, write once, use on every route.
 - Ex. when you write a get method for the database, it can be reused for all routes.
+- Not having thousands of lines with axios functions.
+
+Here is how a request would look instead:
+
+```
+db.peoples.getAll();
+```
 
 
+Autocomplete:
