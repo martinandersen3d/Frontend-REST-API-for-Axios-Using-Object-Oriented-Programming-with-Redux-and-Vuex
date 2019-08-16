@@ -19,3 +19,7 @@ The response from the axios/fetch will go directly to redux/vuex,
 
 
 Autocomplete:
+![](API-Endpoint-with-intellisence.gif)
+
+Define the domain & route endpoints:
+![](axios-api-endpoint-configuration.png)
