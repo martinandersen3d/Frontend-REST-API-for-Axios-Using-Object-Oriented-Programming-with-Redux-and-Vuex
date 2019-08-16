@@ -15,5 +15,7 @@ Here is how a request would look instead:
 db.peoples.getAll();
 ```
 
+The response from the axios/fetch will go directly to redux/vuex,
+
 
 Autocomplete:
